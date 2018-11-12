@@ -1,17 +1,20 @@
-import React, { Component } from 'react';
-import Sidebar from './Components/Sidebar.js'
-import Main  from './Components/Main.js'
-import './Styles/App.css';
+import React from "react";
+import Sidebar from "./Components/Sidebar.js";
+import Main from "./Components/Main.js";
+import "./Styles/App.css";
+import store from './Store/index.js'
+// Used to convert objects to arrays
+import  _ from "lodash"
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <Sidebar />
-        <Main />
-      </div>
-    );
-  }
-}
+const App = () => {
+  const { contacts } = store.getState();
+
+  return (
+    <div className="App">
+      <Sidebar contacts={contacts}/>
+      <Main />
+    </div>
+  );
+};
 
 export default App;
