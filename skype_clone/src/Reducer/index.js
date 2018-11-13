@@ -1,5 +1,8 @@
-const reducer = (state, action) => {
-    return state;
-}
+import { combineReducers } from "redux";
+import user from "./user.js";
+import contacts from "./contacts.js";
 
-export default reducer
+export default combineReducers({
+  user: user,
+  contacts: contacts
+});
