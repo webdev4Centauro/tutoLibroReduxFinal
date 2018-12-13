@@ -4,11 +4,10 @@ import store from "../Store/index.js";
 import { setActiveUserId } from "../Actions/index.js";
 
 const User = ({ user }) => {
-  const { name, profile_pic, status } = user;
+  const { name, profile_pic, status } = user; 
 
   //eventually, try and convert it to arrow function
   function handleUserClick({ user_id }) {
-    console.log(user_id);
     store.dispatch(setActiveUserId(user_id));
   }
 
