@@ -1,5 +1,7 @@
 .Chats {
+    /* allows for grow and shrink based on window size */
     flex: 1 1 0;
+    /* They turn into "flex" items going vertically due to column */
     display: flex;
     flex-direction: column;
     align-items: flex-start;
