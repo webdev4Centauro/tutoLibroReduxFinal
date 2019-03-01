@@ -1,6 +1,14 @@
 # Skype-Clone
 Skype Clone using React &amp; Redux from an article by Ohans Emmanuel.
 
+## Presentational Images
+The following section will present some images of the application running
+
+##### Landing Page
+![](Images/SkypeClone1.png)
+##### Sample Conversation
+![](Images/SkypeClone2.png)
+
 ## Getting Started
 To install the application in your local machine, follow the next steps.
 
