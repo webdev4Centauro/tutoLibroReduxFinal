@@ -14,7 +14,8 @@ render();
 store.subscribe(render);
 
 function fancyLog() {
-    console.log("%c Rendered with 👉 👉👇", "background: purple; color: #fff");
+    console.log("%c Rendered with 👉 👉👇", "background: green; color: #fff");
+    console.log("%c Pene erecto", "background:red;");
     console.log(store.getState());
 }
 
@@ -22,4 +23,5 @@ function fancyLog() {
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: http://bit.ly/CRA-PWA
+
 serviceWorker.unregister();

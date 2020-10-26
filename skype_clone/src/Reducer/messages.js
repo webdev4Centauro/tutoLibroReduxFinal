@@ -19,7 +19,7 @@ export default function messages(state = getMessages(20), action) {
           }
         }
       };
-
+      
     default:
       return state;
   }

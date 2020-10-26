@@ -5,7 +5,7 @@ export default function typing(state = "", action) {
     case SET_TYPING_VALUE:
       return action.payload;
     case SEND_MESSAGE:
-      return "";
+      return "REDUCERTYPING";
     default:
       return state;
   }

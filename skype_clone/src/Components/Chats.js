@@ -14,6 +14,8 @@ class Chats extends Component {
     this.chatsRef = React.createRef();
   }
 
+  // ESTAS TRES FUNCIONES NOS AYUDAN A SCROLLEAR EL CHAT HASTA LA ULTIMA POSICION
+  // O ENTRADA, ESTARIA BIEN REFACTORIZARLO AL HOOK UseEffect
   componentDidMount() {
     this.scrollToBottom();
   }
@@ -25,7 +27,8 @@ class Chats extends Component {
   scrollToBottom = () => {
     this.chatsRef.current.scrollTop = this.chatsRef.current.scrollHeight;
   };
-  
+  //
+
   render() {
     return (
       <div className="Chats" ref={this.chatsRef}>

@@ -15,7 +15,7 @@ const ChatWindow = ({ activeUserId }) => {
   return (
     <div className="ChatWindow">
       <Header user={activeUser} />
-      {/* Pass object as an array of values */}
+      {/*Convertimos el objeto activeMessages a array para poder iterarlo mas tarde*/}
       <Chats messages={_.values(activeMessages)}/>
       <MessageInput value={typing}/>
     </div>

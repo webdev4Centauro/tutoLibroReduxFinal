@@ -7,9 +7,10 @@
     "lodash": "^4.17.11",
     "react": "^16.6.1",
     "react-dom": "^16.6.1",
-    "react-scripts": "2.1.1",
+    "react-scripts": "^2.1.1",
     "redux": "^4.0.1",
     "shortid": "^2.2.14",
+    "start": "^5.1.0",
     "txtgen": "^2.2.2"
   },
   "scripts": {
