@@ -5,7 +5,8 @@ export default function typing(state = "", action) {
     case SET_TYPING_VALUE:
       return action.payload;
     case SEND_MESSAGE:
-      return "REDUCERTYPING";
+      return "";// este return nos puede servir para setear un valor
+                // al campo input de mensages en el chat
     default:
       return state;
   }

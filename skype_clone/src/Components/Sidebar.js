@@ -1,7 +1,7 @@
 import React from "react";
 import User from "../Containers/User.js";
 import "../Styles/Sidebar.css";
-import { Component } from "react";
+//import { Component } from "react";
 //import  {contacts}  from "./static_data";
 
 //const Sidebar=({contacts:{persons}})=>{
@@ -17,11 +17,11 @@ const Sidebar = ({ contacts }) => {
   );
 };
 
-class Appa extends Component {
-  constructor(preps) {
-    super(preps);
-    this.state = {}
-   }
- }
+// class Appa extends Component {
+//   constructor(preps) {
+//     super(preps);
+//     this.state = {}
+//    }
+//  }
 
 export default Sidebar;

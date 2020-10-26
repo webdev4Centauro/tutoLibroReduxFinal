@@ -9,6 +9,7 @@ export default combineReducers({
   user: user,
   contacts: contacts,
   activeUserId: activeUserId,
-  mesages: messages,
+  messages: messages,
   typing: typing
 });
+
